@@ -1,0 +1,35 @@
+#page{top:0; left:0; width:100%; height:auto;}
+#page #saved{width:auto; height:auto; padding:5px; background:#7cca6c; color:#ffffff; font-family:'Alegreya Sans'; font-size:18px; text-align:center;}
+#page #error{width:auto; height:auto; padding:5px; background:#eb1111; color:#ffffff; font-family:'Alegreya Sans'; font-size:18px; text-align:center;}
+#page .title{width:auto; height:auto; padding:5px; color:#333333; font-family:'Calluna'; font-size:35px;}
+#page #post{width:70%; height:auto; padding:20px 2%; background-color:#ffffff; text-align:left; vertical-align:top; display:inline-block;}
+#page #post #title{width:auto; height:auto; padding:3px 10px; color:#333333; font-family:'Calluna'; font-size:35px;}
+#page #post #information{width:auto; height:auto; padding:5px 15px;}
+#page #post #information #timestamp{padding:0px 5px; color:#555555; font-family:'Open Sans'; font-size:12px;}
+#page #post #information #author{padding:0px 5px; color:#555555; font-family:'Open Sans'; font-size:12px; text-decoration:none; -webkit-transition:color 500ms ease-out; -moz-transition:color 500ms ease-out; -o-transition:color 500ms ease-out; transition:color 500ms ease-out;}
+#page #post #information #author:hover{color:#eb3333;}
+#page #post #content{width:auto; height:auto; padding:10px 20px; color:#222222; font-family:'Open Sans'; font-size:15px; text-align:left:;}
+#page #post #content p{width:90%; height:auto; padding:10px; color:#222222; font-family:'Open Sans'; font-size:15px; text-align:justify;}
+#page #post #content img{width:90%; height:auto; padding:10px; text-align:center;}
+#page #post #share{width:auto; height:auto; padding:10px; text-align:center;}
+#page #post #share #facebook{padding:5px 10px; background:#3B5998; font-family:'Open Sans'; font-size:12px; color:#ffffff; cursor:pointer;}
+#page #post #share #twitter{padding:5px 10px; background:#4099FF; font-family:'Open Sans'; font-size:12px; color:#ffffff; cursor:pointer;}
+#page #post #share #google{padding:5px 10px; background:#d34836; font-family:'Open Sans'; font-size:12px; color:#ffffff; cursor:pointer;}
+#page #sidebar{width:20%; height:auto; padding:20px 5px; border-left:3px solid #cccccc; text-align:center; vertical-align:top; display:inline-block;}
+#page #sidebar .recorder{width:auto; height:auto; padding:15px 5px; color:#333333; font-size:15px;}
+#page #sidebar audio{width:100%; height:auto;}
+#page #sidebar .recorder .start{margin:10px; width:35px; height:auto; color:#333333; font-size:15px; border-radius:10000px; cursor:pointer;}
+#page #sidebar .recorder .stop{margin:10px; width:35px; height:auto; color:#333333; font-size:15px; border-radius:10000px; cursor:pointer;}
+#page #sidebar .recorder .start:hover,#page #sidebar .recorder .stop:hover{opacity:0.8; filter:opacity(80%);}
+#page #sidebar .recorder .start:active,#page #sidebar .recorder .stop:active{opacity:0.95; filter:opacity(95%);}
+#page #sidebar .clip{margin-top:5px; width:auto; height:auto; padding:5px; border:1px solid #dedede;}
+#page #sidebar .clip .profpic{float:left; width:35px; height:auto; padding:10px 5px;}
+#page #sidebar .clip .profpic img{width:100%; height:auto;}
+#page #sidebar .clip .name{width:auto; height:auto; padding:10px 5px; color:#333333; font-family:'Open Sans'; font-size:12px; text-align:left;}
+#page #sidebar #submitrecording{width:auto; height:auto; padding:10px; text-align:center; display:none;}
+#page #sidebar #submitrecording #recmessage{width:auto; height:auto; padding:10px; color:#ff0000; text-align:center;}
+#page #sidebar #audiodescription{width:100%; height:auto; padding:5px; background:#ffffff; color:#333333; font-family:'Open Sans'; font-size:12px; border:none; border:1px solid #dddddd; resize:none;}
+#page #sidebar #submitrecording #uploadRec{margin:5px; padding:5px 10px; background-color:#336ca6; color:#ffffff; border:none;}
+#page #sidebar #submitrecording #deleteRec{margin:5px; padding:5px 10px; background-color:#eb1111; color:#ffffff; border:none;}
+#page #sidebar #submitrecording #uploadRec:hover,#page #sidebar #submitrecording #deleteRec:hover{opacity:0.8; filter:opacity(80%);}
+#page #sidebar #submitrecording #uploadRec:active,#page #sidebar #submitrecording #deleteRec:active{opacity:0.95; filter:opacity(95%);}
